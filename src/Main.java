@@ -14,7 +14,5 @@ public class Main {
         Worker.OnTaskErrorListener listenerError = System.out::println;
         Worker worker = new Worker(listener, listenerError);
         worker.start();
-
-        
     }
 }
